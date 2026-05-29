@@ -1,0 +1,153 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  transition: all 0.4s;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+label,
+svg {
+  transition: all 0.4s;
+}
+
+table {
+  border-spacing: 0px;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+html,
+body {
+  font-family: 'Roboto';
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #F04949;
+  overflow-x: hidden !important;
+}
+
+textarea {
+  resize: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #F04949;
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #f26d6d;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+  height: 5px;
+  border-radius: 10px;
+}
+
+*[class*='__container'] {
+  max-width: 1804px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+@media (max-width: 1804px) {
+  *[class*='__container'] {
+    max-width: 1660px;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #141724;
+}
+
+@media (max-width: 950px) {
+  h2{
+    font-size: 34px;
+  }
+}
+
+input,
+textarea {
+  font-size: 16px;
+  font-weight: 500;
+  color: #141724;
+  width: 100%;
+}
+input::placeholder,
+textarea::placeholder{
+  color: #1417244d;
+}
+
+button{
+  box-shadow: 0px 4px 30px 0px #00000040;
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+button:hover{
+  opacity: 0.6;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto_regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
