@@ -99,4 +99,6 @@
 
 .modal_item p{
   font-size: 15px;
+  overflow: hidden;
+  width: fit-content;
 }
