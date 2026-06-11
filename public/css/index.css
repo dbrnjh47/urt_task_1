@@ -15,8 +15,8 @@
 .index::after {
   background: #f26d6d;
   content: '';
-  height: 200%;
-  width: 700vw;
+  height: 300%;
+  width: 800vw;
   z-index: -1;
   position: absolute;
   top: 50%;
